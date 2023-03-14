@@ -1,0 +1,161 @@
+:root {
+    --casal-color: #316674;
+    --grain-brown-color: #E0D4B0;
+    --summer-green-color: #92B4A0;
+    --gull-gray-color: #94ACB4;
+}
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--casal-color);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: var(--casal-color);
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.products {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.col {
+    flex: 1;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.col img {
+    width: 100%;
+}
+
+.col h3 {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.col p {
+    margin: 10px;
+}
+
+.col a {
+    display: block;
+    background-color: var(--casal-color);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.col a:hover {
+    background-color: #222;
+}
+
+.contact {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    display: flex;
+    align-items: center;
+    background-color: var(--casal-color);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.contact button:hover {
+    background-color: #222;
+}
+
+.contact img {
+    height: 20px;
+    margin-right: 10px;
+}

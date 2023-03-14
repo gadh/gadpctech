@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selling Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="item-container">
+  <div class="item">
+    <img src="images/products/product1.jpg" alt="Product 1">
+    <h2>Product 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum justo eget est posuere commodo. Aliquam erat volutpat. Nunc eleifend posuere lectus, non fringilla urna ullamcorper sit amet. Fusce vestibulum nulla vitae ante interdum, nec tempus massa sodales. </p>
+    <p class="price">$19.99</p>
+  </div>
+
+  <div class="item">
+    <img src="images/products/product2.jpg" alt="Product 2">
+    <h2>Product 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum justo eget est posuere commodo. Aliquam erat volutpat. Nunc eleifend posuere lectus, non fringilla urna ullamcorper sit amet. Fusce vestibulum nulla vitae ante interdum, nec tempus massa sodales. </p>
+    <p class="price">$29.99</p>
+  </div>
+
+  <div class="item">
+    <img src="images/products/product3.jpg" alt="Product 3">
+    <h2>Product 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum justo eget est posuere commodo. Aliquam erat volutpat. Nunc eleifend posuere lectus, non fringilla urna ullamcorper sit amet. Fusce vestibulum nulla vitae ante interdum, nec tempus massa sodales. </p>
+    <p class="price">$39.99</p>
+  </div>
+
+  <div class="item">
+    <img src="images/products/product4.jpg" alt="Product 4">
+    <h2>Product 4</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum justo eget est posuere commodo. Aliquam erat volutpat. Nunc eleifend posuere lectus, non fringilla urna ullamcorper sit amet. Fusce vestibulum nulla vitae ante interdum, nec tempus massa sodales. </p>
+    <p class="price">$49.99</p>
+  </div>
+
+</div>
+<style>
+  /* Set box-sizing property */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Style for item-container */
+  .item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+
+  /* Style for item */
+  .item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    flex: 0 0 calc(25% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Style for item image */
+  .item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /* Style for item title */
+  .item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Style for item description */
+  .item p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  /* Style for item price */
+  .item .price {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+</style>
+</body>
+</html>
