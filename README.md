@@ -29,6 +29,17 @@ Add a price for your new item using the following code:
 ```
 Replace $19.99 with the price of your item.
 That's it! You can now view your new item on the index.html page.
+## set text bio
+```html
+<center>
+    <h3> <p style="color: #333333;text-align: right; display: flex;justify-content: center;">
+        פרטים עליי<br>
+        אני מישראל<br>
+        עוד פרטים עליי<br>
+        עוד כמה פרטים<br></p></h3>
+</center>
+```
+br =שורה חדשה 
 ## template item code
 ```html
  <div class="col-md-4 mb-4">
@@ -61,4 +72,8 @@ That's it! You can now view your new item on the index.html page.
                 </div>
             </div>
 ```
+
+
+
+
 
